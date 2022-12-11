@@ -1,0 +1,177 @@
+
+# count no. of characters in a string
+##string = 'my name is name'
+##print(len(string)
+##    
+##count = 0   
+##for i in string:
+##    count = count + 1
+##print(count)
+##
+##
+### count no. of vowels in a string
+##vowels = 'aeiou'
+##count = 0
+##string = 'My name is LPU University or SOMETHING'
+##for i in string.lower():
+##      if i in vowels:
+##          count += 1
+
+##print(count)
+##
+
+
+      
+# count the max frequently occuring character in a string
+
+string = 'A Test String is a Test String'
+characters = {} # key:value
+      
+for i in string:
+      if i in characters:
+          characters[i] = characters[i] + 1
+      else:
+          characters[i] = 1
+
+max_count = 0
+ch = ""
+for i in characters:
+      if characters[i] > max_count:
+          max_count = characters[i]
+          ch = i
+print(ch, max_count)
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+# count words in a string
+# count words in a file
+# count sentences in a string
+# count sentences in a file
+# count no. of lines in a file
+
+
+
+
+
+###1.
+##string = 'This is LPU university'
+##print(len(string))
+##
+##l = list(string)
+##count = 0
+##for i in l:
+##    count += 1
+##print(count)
+##
+##
+###2.
+##vowels = ['a','e','i','o','u']
+##count = 0
+##for i in string.lower():
+##    if i in vowels:
+##        count += 1
+##
+##print(count)
+##
+##
+###3.
+##string = 'My name is name is my'
+##
+##
+##
+##
+##
+##
+##
+##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##string = 'my name is something'
+##alpha = {} #-> {'m':1, 'y':1,' ': 1,'n':1,}
+##for i in string:
+##    if i in alpha:
+##        alpha[i] += 1
+##    else:
+##        alpha[i] = 1
+##
+####max_count = max(alpha, key=alpha.get)
+####print(max_count)
+##
+##maxi = -1
+##for i in alpha:
+##    if alpha[i] > maxi:
+##        maxi = alpha[i]
+##
+##for i in alpha:
+##    if alpha[i] == maxi:
+##        print(alpha[i])
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
